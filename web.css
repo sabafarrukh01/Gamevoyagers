@@ -5,7 +5,6 @@ body{
 
     background-image: url('picss/background.png');
 }
-
 .headercontainer
 {
    align-items: center;
@@ -14,8 +13,7 @@ body{
     background-color: #181818;
     padding: 20px;
 
-    }
-      
+    }   
 .header1st img{
     max-height: 50px;
     margin-left: 155px;
@@ -25,7 +23,6 @@ body{
     text-align: center;
     max-height: 50px;
 }
-
 .header3rd{
 margin-right: 120px;
 
@@ -69,7 +66,6 @@ margin-right: 10px;
 .navheading{
     margin: 0;
 }
-
 .bodypart{
    
     display: flex;
@@ -88,7 +84,6 @@ margin-right: 10px;
     border-radius: 30px;
     border: 2px white solid;
     width: 382px;
-
 }
 .thirdimg{
     height: 200px;
@@ -112,7 +107,6 @@ margin-right: 10px;
     color: white;
     height: 34px;
 }
-
 .imagecontainer{
     position: relative;
     
@@ -171,7 +165,6 @@ font-weight: bold;
 margin-top: 20px; 
     color: white;
 }
-
 .featuredheading h1{
     font-weight: bold;
     color: #ffffff;
@@ -199,7 +192,6 @@ margin-top: 20px;
    bottom: 40px;
    left: 20px;
 }
-
 .fccontainer{
     display: flex;
     gap: 30px; /* Space between the cards */
@@ -249,4 +241,79 @@ margin-top: 20px;
     position: relative;
    bottom: 250px;
    left: 20px;
+}
+.first img{
+    border-radius: 20px;
+    height: 230px;
+    width: 350px;
+    object-fit: fill;
+    position: absolute;
+    left: 150px;
+    top: 1350px;
+}
+
+.firsttext{
+    background-color: #d42323;
+    color: #ffffff;
+width: 25%;
+border-end-end-radius: 30px;
+border-top-right-radius: 30px;
+height: 199px;
+padding:15px 20px;
+position: relative;
+bottom: 350px;
+left: 420px;
+}
+.firsttext a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;  
+    font-weight: bold;
+}
+
+.firsttext p{
+    font-size: 15px;
+}
+.second img{
+    border-radius: 20px;
+    height: 230px;
+    width: 350px;
+    object-fit: fill;
+    position: absolute;
+    left: 150px;
+    top: 1600px;
+}
+.secondtext{
+    background-color: #d42323;
+    color: #ffffff;
+width: 25%;
+border-end-end-radius: 30px;
+border-top-right-radius: 30px;
+height: 201px;
+padding:15px 20px;
+position: relative;
+left: 420px;
+bottom: 349px;
+}
+.secondtext a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;  
+    font-weight: bold;
+}
+
+.secondtext p{
+    font-size: 10px;
+}
+.secondtext h5{
+    font-size: 15px;
+}
+#aone{
+    text-decoration: none;
+color: #ffffff;
+    border: #ffffff solid 2px;
+    padding: 15px;
+    position: relative;
+    left: 170px;
+    bottom: 290px;
 }
