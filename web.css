@@ -255,7 +255,7 @@ margin-top: 20px;
 .firsttext{
     background-color: #d42323;
     color: #ffffff;
-width: 25%;
+width: 45%;
 border-end-end-radius: 30px;
 border-top-right-radius: 30px;
 height: 199px;
@@ -286,7 +286,7 @@ left: 420px;
 .secondtext{
     background-color: #d42323;
     color: #ffffff;
-width: 25%;
+width: 45%;
 border-end-end-radius: 30px;
 border-top-right-radius: 30px;
 height: 201px;
@@ -329,7 +329,7 @@ color: #ffffff;
 .thirdtext{
     background-color: #d42323;
     color: #ffffff;
-width: 25%;
+width: 45%;
 border-end-end-radius: 30px;
 border-top-right-radius: 30px;
 height: 200px;
@@ -359,7 +359,7 @@ bottom: 330px;
 .forthtext{
     background-color: #d42323;
     color: #ffffff;
-width: 25%;
+width: 45%;
 border-end-end-radius: 30px;
 border-top-right-radius: 30px;
 height: 200px;
@@ -389,7 +389,7 @@ bottom: 310px;
 .fifthtext{
     background-color: #d42323;
     color: #ffffff;
-width: 25%;
+width: 45%;
 border-end-end-radius: 30px;
 border-top-right-radius: 30px;
 height: 200px;
@@ -409,4 +409,102 @@ bottom: 290px;
 }
 .articlescontainer{
     border-bottom: #ffffff solid 1px;
+    display: flex;
+   
+}
+.featureddarticles h1{
+    position: relative;
+    left: 80px;
+    bottom: 453px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+}
+.featureddarticles img{
+    max-height: 100px;
+    max-width: 100px;
+    position: relative;
+   bottom: 380px;
+}
+.listone{
+ gap: 20px;
+    display: flex;
+}
+.listone h1{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: -425px;
+    line-height: 22px;
+}
+.listone img{
+    max-height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: -430px;
+}
+
+.listtwo{gap: 20px;
+    display: flex;}
+
+.listtwo h1{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: -295px;
+    line-height: 22px;
+}
+
+ .listtwo img{
+    max-height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: -300px;
+ }   
+
+.listthree{
+    gap: 20px;
+    display: flex;
+}    
+.listthree h1{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: -165px;
+    line-height: 22px;
+}
+.listthree img{
+    max-height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: -170px;
+}
+.listfour{
+    gap: 20px;
+    display: flex;
+}
+.listfour h1{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: -35px;
+    line-height: 22px;
+}
+.listfour img{
+    max-height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+.listfive{
+    gap: 20px;
+    display: flex;
+}
+.listfive h1{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 22px;
+}
+.listfive img{
+    max-height: 100px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 25px;
 }
