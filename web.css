@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url('picss/background.png');
+    max-width: auto;
 }
 .headercontainer
 {
@@ -516,6 +517,7 @@ bottom: 290px;
     background-color: #181818;
  height: 400px;   
   padding-top: 70px;
+  margin: 0px;
 }
 .footerone{
     padding-left: 200px;
