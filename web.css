@@ -3,8 +3,8 @@ body{
     margin: 0;
     padding: 0;
     background-image: url('picss/background.png');
-    max-width: auto;
-}
+    background-size: cover;
+   }
 .headercontainer
 {
    align-items: center;
@@ -17,20 +17,18 @@ body{
 .header1st img{
     max-height: 50px;
     margin-left: 155px;
-       text-align: left;        
+           
     }
 .header2nd img{
-    text-align: center;
-    max-height: 50px;
+        max-height: 50px;
 }
 .header3rd{
 margin-right: 120px;
 
 }
 .header3rd a img{
-text-align: right;
+
 max-height: 40px;
-width: 40px;
 margin-right: 10px;
 }
 .navbar{
@@ -44,32 +42,19 @@ margin-right: 10px;
 }
 .navbar nav {
     display: flex;
-        text-align: center; 
     justify-content: center;
     gap: 10px;
 }
-.navbar div{
-        text-align: center;
-        }
-.navheading{
-     text-align: center;  
-        font-size: 10px;
-}
+.navbar div, .navheading{
+    text-align: center;
+    }
 .redcircle img{
    height: 10px;
    margin: 16px 5px;
-
    color: #3c0a0a;
-   
-   
 }
-.navheading{
-    margin: 0;
-}
-.bodypart{
-   
+.bodypart{ 
     display: flex;
-    flex: 1;
     gap: 45px;
     padding: 40px;
 }
@@ -83,11 +68,10 @@ margin-right: 10px;
     height: 230px;
     border-radius: 30px;
     border: 2px white solid;
-    width: 382px;
+    
 }
 .thirdimg{
     height: 200px;
-    width: 380px;
     border-radius: 30px;
     border: 2px white solid;
     position: relative;
@@ -122,12 +106,12 @@ top: 240px;
     font-size: 19px;
     font-weight: bold;
    background-color: #800000;
-  width: 100px;
+   width: 150px;
    text-align: center;
    padding: 10px;
  margin-bottom: 20px;
-  
 }
+
 .firstheading{
     color: white;
 font-size: 40px;
@@ -180,14 +164,13 @@ margin-top: 20px;
    left: 1100px;
    background-color: #d42323;
    color:#ffffff;
-   padding: 15px 24px 15px 24px;
+   padding: 15px 24px ;
    font-size: medium;
    border-color: #d42323;
    
 }
 .featuredheading img{
     max-height: 200px;
-    max-width: 200px;
     position: relative;
    bottom: 40px;
    left: 20px;
@@ -216,7 +199,6 @@ margin-top: 20px;
     color: black;
     background-color: #ffffff;
     height: 60px;
-    width: 230px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     text-align: center;
@@ -237,7 +219,7 @@ margin-top: 20px;
 }
 .featuredarticles img{
     max-height: 200px;
-    max-width: 200px;
+    
     position: relative;
    bottom: 250px;
    left: 20px;
@@ -245,7 +227,7 @@ margin-top: 20px;
 .first img{
     border-radius: 20px;
     height: 230px;
-    width: 350px;
+   
     object-fit: fill;
     position: absolute;
     left: 150px;
@@ -255,7 +237,7 @@ margin-top: 20px;
 .firsttext{
     background-color: #d42323;
     color: #ffffff;
-width: 45%;
+    width: 45%;
 border-end-end-radius: 30px;
 border-top-right-radius: 30px;
 height: 199px;
@@ -277,7 +259,7 @@ left: 420px;
 .second img{
     border-radius: 20px;
     height: 230px;
-    width: 350px;
+    
     object-fit: fill;
     position: absolute;
     left: 150px;
@@ -320,7 +302,7 @@ color: #ffffff;
 .third img{
     border-radius: 20px;
     height: 230px;
-    width: 350px;
+   
     object-fit: fill;
     position: absolute;
     left: 150px;
@@ -350,7 +332,7 @@ bottom: 330px;
 .forth img{
     border-radius: 20px;
     height: 230px;
-    width: 350px;
+   
     object-fit: fill;
     position: absolute;
     left: 150px;
@@ -380,7 +362,7 @@ bottom: 310px;
 .fifth img{
     border-radius: 20px;
     height: 230px;
-    width: 350px;
+    
     object-fit: fill;
     position: absolute;
     left: 150px;
@@ -422,7 +404,7 @@ bottom: 290px;
 }
 .featureddarticles img{
     max-height: 100px;
-    max-width: 100px;
+
     position: relative;
    bottom: 380px;
 }
@@ -525,9 +507,7 @@ bottom: 290px;
 .footerone img{
     max-height: 40px;
 }
-.footerone p{
-    max-width: 250px;
-}
+
 .footertwo h2{
 font-size: 15px;
 }
